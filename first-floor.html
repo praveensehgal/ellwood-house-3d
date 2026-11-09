@@ -1,0 +1,18 @@
+<!doctype html><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>First floor</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:wght@600&family=IBM+Plex+Sans:wght@400;600&display=swap">
+<link rel="stylesheet" href="style.css">
+<main>
+<nav aria-label="Floors"><a href="./">Whole house</a><a href="basement.html">Basement</a><a href="first-floor.html" aria-current="page">First floor</a><a href="second-floor.html">Second floor</a></nav>
+<header><div class="tag">Permit BLDR-172387-2026</div><h1>First floor</h1><p class="sub">The approved kitchen and rear porch, with the front porch and the rest of the floor as placeholders.</p></header>
+<div id="viewer" role="img" aria-label="Interactive 3D model, First floor"></div>
+<div class="bar"><span class="lbl">View</span><button data-p="overview" aria-pressed="false">Overview</button><button data-p="kitchenTop" aria-pressed="false">Kitchen from above</button><button data-p="rear" aria-pressed="false">Rear and porch</button><button data-p="inside" aria-pressed="false">Inside the kitchen</button></div>
+<div class="bar"><span class="lbl">Layers</span><button data-t="porch" aria-pressed="false">Rear porch</button><button data-t="furn" aria-pressed="false">Furniture</button><button data-t="ground" aria-pressed="false">Ground</button><button data-t="hl" aria-pressed="false">Show what comes from the plans</button></div>
+<p class="hint">Drag to rotate. Right-drag or two fingers to pan. Scroll or pinch to zoom.</p>
+<section><h2>What is drawn and what is assumed</h2><ul><li><strong>From the approved plans:</strong> rear kitchen zone, rear wall door and windows, right-wall window, the 12' × 8' two-level rear porch, and the 21' building width. The highlight button colors these teal.</li><li><strong>Furniture:</strong> illustrative only, to show scale. It is not part of the drawings.</li><li><strong>From your street photo:</strong> the front door, paired window and front porch with shed roof.</li><li><strong>Not available:</strong> the existing floor plan (A1.0) is not in the PDF, so the house depth (about 38 ft), interior walls outside the kitchen, and window sizes outside the plan are my estimates. Finishes are placeholders.</li></ul></section>
+<h2 style="margin:8px 0 0">Kitchen renderings</h2><figure><img src="images/1_cutaway_axonometric.jpg" alt="Cutaway view" loading="lazy"><figcaption><strong>Cutaway view.</strong> Ceiling removed. The rear porch is at the top right.</figcaption></figure><figure><img src="images/2_interior_kitchen_toward_porch.jpg" alt="Kitchen toward the rear wall" loading="lazy"><figcaption><strong>Kitchen toward the rear wall.</strong> Island, 4'-0" aisle, range wall at left, rear door and two windows, dropped beam overhead.</figcaption></figure><figure><img src="images/3_interior_range_wall.jpg" alt="Range wall and island" loading="lazy"><figcaption><strong>Range wall and island.</strong> Pantry at far left, refrigerator, range with hood, island with sink.</figcaption></figure>
+</main>
+<script src="https://cdn.jsdelivr.net/npm/three@0.128.0/build/three.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/controls/OrbitControls.js"></script>
+<script>window.MODE="f1"</script>
+<script src="viewer.js"></script>
