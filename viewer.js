@@ -140,7 +140,7 @@ wallOpen('x', 0, W, YF, YF + 1, Z2, ZT, [[7.9, 11.5, Z2 + 2.4, Z2 + 7.2], [11.7,
 [[7.9, 11.5], [11.7, 15.3]].forEach(([a, b]) => { box(a + .07, b - .07, YF + .3, YF + .7, Z2 + 2.47, Z2 + 7.13, MAT.glass, L.f2, 'assumed'); box(a, a + .07, YF + .2, YF + .8, Z2 + 2.4, Z2 + 7.2, MAT.trim, L.f2, 'assumed'); box(b - .07, b, YF + .2, YF + .8, Z2 + 2.4, Z2 + 7.2, MAT.trim, L.f2, 'assumed'); });
 windowAt(5.4, 7.6, Z2 + 2.5, Z2 + 7.5, L.f2, 'plan'); windowAt(16.24, 18.26, Z2 + 2.5, Z2 + 7.5, L.f2, 'plan');
 box(9.72, 11.69, .35, .55, Z2, Z2 + 6.67, MAT.trim, L.f2); box(9.95, 11.45, .3, .6, Z2 + 1.0, Z2 + 6.2, MAT.glass, L.f2);
-box(1, W - 1, YF + 1, 0, ZT - .3, ZT, MAT.white, L.f2, 'assumed');
+
 
 // ---------- roof: front-to-back gable, gray shingle (from street photos; pitch estimated) ----------
 const RISE = 8.0, HALF = W / 2 + .7, SL = Math.hypot(HALF, RISE), RA = Math.atan(RISE / HALF), RL = 41.5;
