@@ -7,12 +7,13 @@
 <header><div class="tag">Permit BLDR-172387-2026</div><h1>Basement</h1><p class="sub">Existing basement, shown as a simple shell.</p></header>
 <div id="viewer" role="img" aria-label="Interactive 3D model, Basement"></div>
 <div class="bar"><span class="lbl">View</span><button data-p="overview" aria-pressed="false">Overview</button></div>
+
 <div class="bar"><span class="lbl">Layers</span><button data-t="hl" aria-pressed="false">Show what comes from the plans</button></div>
-<p class="hint">Drag to rotate. Right-drag or two fingers to pan. Scroll or pinch to zoom.</p>
-<section><h2>What is drawn and what is assumed</h2><ul><li><strong>From the approved plans (S1.0):</strong> the three 4" steel posts and the steel beam under the first-floor wall. The plans also call for new 2×10 framing to replace fire-damaged framing at the left rear.</li><li><strong>Not available:</strong> the basement walls, floor, size and room layout are placeholders. The street photo shows small windows low on the right wall.</li></ul></section>
+<p class="hint">Drag to rotate. Right-drag or two fingers to pan. Scroll or pinch to zoom. Click a window to step inside that room; Esc goes back.</p>
+<section><h2>What is drawn and what is assumed</h2><ul><li><span class="tg tg-plan">From plans</span> The three 4" steel posts and the steel beam under the first-floor wall (S1.0). The plans also call for new 2×10 framing to replace fire-damaged framing at the left rear.</li><li><span class="tg tg-concept">Concept</span> The basement walls, floor and size are placeholders. The street photo shows small windows low on the right wall.</li></ul></section>
 
 </main>
 <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/build/three.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/controls/OrbitControls.js"></script>
 <script>window.MODE="base"</script>
-<script src="viewer.js"></script>
+<script src="viewer.js"></script><script src="details.js"></script><script src="second.js"></script><script src="rooms.js"></script>

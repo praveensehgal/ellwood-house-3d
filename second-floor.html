@@ -4,15 +4,16 @@
 <link rel="stylesheet" href="style.css">
 <main>
 <nav aria-label="Floors"><a href="./">Whole house</a><a href="basement.html">Basement</a><a href="first-floor.html">First floor</a><a href="second-floor.html" aria-current="page">Second floor</a></nav>
-<header><div class="tag">Permit BLDR-172387-2026</div><h1>Second floor</h1><p class="sub">Existing second floor, shown as a shell. The approved work does not change it.</p></header>
+<header><div class="tag">Permit BLDR-172387-2026</div><h1>Second floor</h1><p class="sub">Concept layout for the second floor: three bedrooms and a primary bath.</p></header>
 <div id="viewer" role="img" aria-label="Interactive 3D model, Second floor"></div>
 <div class="bar"><span class="lbl">View</span><button data-p="overview" aria-pressed="false">Overview</button><button data-p="front" aria-pressed="false">Front</button></div>
-<div class="bar"><span class="lbl">Layers</span><button data-t="porch" aria-pressed="false">Rear porch</button><button data-t="ground" aria-pressed="false">Ground</button><button data-t="hl" aria-pressed="false">Show what comes from the plans</button></div>
-<p class="hint">Drag to rotate. Right-drag or two fingers to pan. Scroll or pinch to zoom.</p>
-<section><h2>What is drawn and what is assumed</h2><ul><li><strong>From the approved plans:</strong> only the rear porch level and its openings. The cover sheet lists the second floor as unchanged.</li><li><strong>From your street photos:</strong> brick exterior, pitched gable roof with a gable facing the street, brick chimney on the right slope, front porch with shed roof and white railed steps, red front door, paired windows, and the window rows on the right wall. Sizes and spacing are estimated from the photos.</li><li><strong>Not available:</strong> there are no drawings of the second-floor rooms, so none are modeled.</li></ul></section>
-
+<div class="bar"><span class="lbl">Rooms</span><button data-room="primary" aria-pressed="false">Primary bedroom</button><button data-room="ensuite" aria-pressed="false">Primary bath</button><button data-room="bed2" aria-pressed="false">Bedroom 2</button><button data-room="bed1" aria-pressed="false">Bedroom 1</button></div>
+<div class="bar"><span class="lbl">Layers</span><button data-t="porch" aria-pressed="false">Rear porch</button><button data-t="furn" aria-pressed="false">Furniture</button><button data-t="ground" aria-pressed="false">Ground</button><button data-t="hl" aria-pressed="false">Show what comes from the plans</button></div>
+<p class="hint">Drag to rotate. Right-drag or two fingers to pan. Scroll or pinch to zoom. Click a window to step inside that room; Esc goes back.</p>
+<section><h2>What is drawn and what is assumed</h2><ul><li><span class="tg tg-plan">From plans</span> Only the rear porch level and its openings. The cover sheet lists the second floor as unchanged.</li><li><span class="tg tg-photo">From photos</span> Brick exterior, front gable, roof and chimney, front porch with steps, front door and paired windows, right-wall window rows. The neighbor is removed. Sizes are estimated from the photos.</li><li><span class="tg tg-concept">Concept</span> There are no drawings of the second-floor rooms. The partitions, stair opening, rooms and furniture are my layout.</li><li><span class="tg tg-pick">Your pick</span> Walnut thin-shaker island, white shaker cabinets elsewhere, white marble counters, early American pine floors, Bosch appliance package.</li></ul></section>
+<h2 style="margin:8px 0 0">Renderings</h2><div class="grid"><figure><img src="images/F_primary_bedroom.jpg" alt="Primary bedroom" loading="lazy"><figcaption><strong>Primary bedroom.</strong> Concept layout.</figcaption></figure></div>
 </main>
 <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/build/three.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/controls/OrbitControls.js"></script>
 <script>window.MODE="f2"</script>
-<script src="viewer.js"></script>
+<script src="viewer.js"></script><script src="details.js"></script><script src="second.js"></script><script src="rooms.js"></script>
